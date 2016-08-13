@@ -1,0 +1,16 @@
+- title: "Clubstation"
+  href: "/clubstation/"
+
+- title: "News"
+  href: "/news/"
+
+- title: "Projekte"
+  href: "/projects/"
+  subcategories:
+    - subtitle: "Digipeater"
+      subhref: "/projects/digipeater/"
+    - subtitle: "AVM Funktisch"
+      subhref: "/projects/avm/"
+
+- title: "About"
+  href: "/about/"

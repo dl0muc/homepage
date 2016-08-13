@@ -1,0 +1,23 @@
+# Site settings
+title: DL0MUC - Clubstation des µC³
+email: dl0muc@muc.ccc.de
+description: > # this means to ignore newlines until "baseurl:"
+  Clubstation des Chaos Computer Club München
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dl0muc.de" # the base hostname & protocol for your site
+twitter_username: dl0muc
+github_username:  dl0muc
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+#job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
+category-list: [project]
+
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
