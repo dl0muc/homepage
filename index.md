@@ -5,7 +5,7 @@ permalink: /
 ---
 
 Homepage von DL0MUC - Der Clubstation des Chaos Computer Clubs München 
-Sowie DB0MUC - Der automatischen Station des Chaos Computer Club München
+sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
 
 ## Neuigkeiten
 
@@ -15,7 +15,7 @@ Sowie DB0MUC - Der automatischen Station des Chaos Computer Club München
 {% for post in site.posts %}
     <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
     </li>
 {% endfor %}
 </ul>
