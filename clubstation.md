@@ -4,19 +4,19 @@ title: Clubstation
 permalink: /clubstation/
 ---
 
-# Transceiver
+## Transceiver
 
-## KW
+### KW
 * TS-440S
 * IC-9100
 
-## UKW
+### UKW
 * Motorola GM1200 UHF
 * Motorola MC Micro VHF 
 
-# Antennen
+## Antennen
 
-## X-200 144/430 MHz Dual Band Colinear Antenna 
+### X-200 144/430 MHz Dual Band Colinear Antenna 
 
 [Thiecom Link](http://www.thiecom.de/diamond/x200.htm) 
 
@@ -27,7 +27,7 @@ permalink: /clubstation/
 | **Length** | 2.2 m                              | 
 | **Weight** | 1.5 kg                             |
 
-## HF-6V - 5-Band vertical antenna 
+### HF-6V - 5-Band vertical antenna 
 
 [WiMo Link](http://wimo.de/antenna-butternut_e.html#hf6v)
 
@@ -46,9 +46,9 @@ permalink: /clubstation/
 |                                     | 40m: 250-300kHz                                           |
 |                                     | 80m: 40-100kHz                                            |
 
-# Anbindung zwischen Dach und Shack
+## Anbindung zwischen Dach und Shack
 
-## 3x RF (1/2 Zoll)
+### 3x RF (1/2 Zoll)
 
 | Farbcode | Anschluss Dach | Anschluss Shack |
 | -------- | -------------- | --------------- |
@@ -56,18 +56,18 @@ permalink: /clubstation/
 | grün     | **free**       | **free**        |
 | blau     | HF-6V          | IC-9100 KW      |
 
-## 2x CAT6 Ethernetanbindung
+### 2x CAT6 Ethernetanbindung
 
 | Farbcode | Anschluss Dach | Anschluss NOC   |
 | -------- | -------------- | --------------- |
 | grün     | **FIXME**      | **FIXME**       |
 | blau     | **FIXME**      | **FIXME**       |
 
-## Strom 3 Phasen 5 x 2,5 mm
+### Strom 3 Phasen 5 x 2,5 mm
 
 Sicherungen: **FIXME**
 
-# HAMNET
+## HAMNET
   * Ubiquiti Nanostation M2 Loco ist auf dem Dach montiert. 
   * Userzugang DB0TVM Süd 2327MHz
   * IP: 192.168.1.20 (DHCP Server) wird über VLAN 3900 im Clubnetz verteilt <del>(aktuell nur auf Dose B8 im Labor)</del>

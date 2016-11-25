@@ -1,0 +1,14 @@
+# Members
+
+- name: DC1MIL - andz
+  role: Sysop APRS and HAMNET
+  img: /assets/member/default_member.jpeg
+  github: andz82
+  bio: Nothing to say here
+  visible: true
+   
+- name: DL1COM - Chris
+  role: Sysop Empfaengr
+  img: /assets/member/default_member.jpeg
+  github: chris007de
+  visible: true

@@ -11,6 +11,12 @@
       subhref: "/projects/digipeater/"
     - subtitle: "AVM Funktisch"
       subhref: "/projects/avm/"
+    
+- title: "Aufbaulogbuch"
+  href: "/projects/aufbaulogbuch/"
 
 - title: "About"
   href: "/about/"
+
+- title: "members"
+  href: "/members.html"

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Projekte
+description: Hier findet sich eine Liste von Projekten welche im Rahmen der DL0MUC Clubstation enstanden sind
 permalink: /projects/
+categories: none
 ---
-
-Hier findet sich eine Liste von Projekten welche im Rahmen der DL0MUC Clubstation enstanden sind.
 
 <ul class="listing">
 {% for page in site.pages %}

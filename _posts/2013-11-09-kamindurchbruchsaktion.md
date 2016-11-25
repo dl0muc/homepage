@@ -2,7 +2,8 @@
 layout: post
 title:  "Kamindurchbruchsaktion"
 date:   2013-11-09 00:00:00
-categories: Aufbaulogbuch
+categories: [logbuch, post]
+project: 'Dach'
 ---
 
 Durchbruch zum stillgelegten Kamin unterm Dach erfolgreich - er war bereits vorhanden! 
