@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Clubstationsrufzeichen beantragt und arbeiten am Antennenmast"
+author: "DC1MIL"
 date:   2013-11-02 00:00:00
 categories: [logbuch, post]
-project: 'Allgemein'
+project: 'Clubstation'
 ---
 
 Jan (DG3FDM) hat ein Clubstationsrufzeichen bei der BNetzA beantragt.

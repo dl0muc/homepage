@@ -4,7 +4,7 @@ title:  "Kamindurchbruchsaktion"
 author: "DC1MIL"
 date:   2013-11-09 00:00:00
 categories: [logbuch, post]
-project: 'Dach'
+project: 'Clubstation'
 ---
 
 Durchbruch zum stillgelegten Kamin unterm Dach erfolgreich - er war bereits vorhanden! 
