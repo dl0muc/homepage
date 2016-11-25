@@ -4,7 +4,7 @@ layout: default
 <div class="post">
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <h2>{{ page.description }}</h2>
+        <h3>{{ page.description }}</h3>
     </header>
 
     <article class="post-content">
@@ -22,11 +22,11 @@ layout: default
             <h4 class="post-subtitle"> {{ post.subtitle }} </h4>
             {% endif %}
         </a>
-        <p class="post-meta" style="margin-bottom:5px">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        <p class="post-meta" style="margin-bottom:5px">Eintrag von {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
     </div>
     {% endif %}
     {% endfor %}
     {% endif %}
 
 </div>
-<hr>
+

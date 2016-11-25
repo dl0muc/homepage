@@ -180,14 +180,12 @@
 }
 
 h1 /* .post-title */ {
-/*    font-size: 42px; */
     letter-spacing: -1px;
     line-height: 1;
 		font-family: 'Titillium Web', sans-serif;
 		color: #522d80;
 
     @include media-query($on-laptop) {
-/*        font-size: 36px; */
     }
 }
 
@@ -196,28 +194,28 @@ h1 /* .post-title */ {
 
     h2 {
 		font-family: 'Titillium Web', sans-serif;
-	font-weight: 500;
-/*        font-size: 32px; */
-
+	    font-weight: 500;
+        margin-top:20px;
+        margin-bottom:10px;
+        text-decoration: underline;
         @include media-query($on-laptop) {
-/*            font-size: 28px; */
         }
     }
 
     h3 {
-		font-style: italic;
-/*        font-size: 26px; */
-
+        font-family: 'Titillium Web', sans-serif;
+		font-style: bold;
+        margin-top:20px;
+        margin-bottom:10px;
         @include media-query($on-laptop) {
-/*            font-size: 22px; */
         }
     }
 
     h4 {
-/*       font-size: 20px; */
-
+        font-family: 'Titillium Web', sans-serif;
+        margin-top:20px;
+        margin-bottom:10px;
         @include media-query($on-laptop) {
-/*            font-size: 18px; */
         }
     }
 }

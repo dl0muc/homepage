@@ -32,8 +32,6 @@ $content-width:    950px;
 $on-palm:          600px;
 $on-laptop:        950px;
 
-
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -47,7 +45,27 @@ $on-laptop:        950px;
     }
 }
 
+// Table Style
+table{
 
+}
+
+th {
+    background-color: $clemson-orange;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+td{
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -58,3 +76,4 @@ $on-laptop:        950px;
         "syntax-highlighting",
 	"fancy-image"
 ;
+

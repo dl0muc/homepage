@@ -1,10 +1,9 @@
 ---
 layout: page
 title: News
+description: Hier finden sich alle Neuigkeiten zu unserer Clubstation
 permalink: /news/
 ---
-
-Hier finden sich alle Neuigkeiten zu unserer Clubstation
 
 <ul class="listing">
 {% for post in site.posts %}
