@@ -21,7 +21,7 @@ sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
             <h4 class="post-subtitle"> {{ post.subtitle }} </h4>
             {% endif %}
         </a>
-        <p class="post-meta" style="margin-bottom:5px">Eintrag von {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        <p class="post-meta" style="margin-bottom:5px">Eintrag von {{ post.author }} am {{ post.date | date: "%-d. %B %Y" }}</p>
     </div>
 {% endif %}
 {% endfor %}
