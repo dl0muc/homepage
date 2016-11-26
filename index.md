@@ -14,6 +14,7 @@ sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
 <div class="post">
 {% for post in site.posts %}
 {% if forloop.index <= 6 %}
+<hr>
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}.html">
             <h3 class="post-title"> {{ post.title }} </h3>
@@ -21,6 +22,7 @@ sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
             <h4 class="post-subtitle"> {{ post.subtitle }} </h4>
             {% endif %}
         </a>
+        {{ post.excerpt }}
         <p class="post-meta" style="margin-bottom:5px">Eintrag von {{ post.author }} am {{ post.date | date: "%-d. %B %Y" }}</p>
     </div>
 {% endif %}

@@ -18,4 +18,6 @@ Desweiteren haben Chris (DL1COM) und andz (DC1MIL) auf dem Dach am alten TV Ante
 
 {% include image.html url="/assets/posts/post001.jpg" caption="Antennenmast vor dem Abbau" width=300 align="left" %}
 {% include image.html url="/assets/posts/post002.jpg" caption="Die abgebauten Antennen" width=300 align="left" %}
+<br style="clear: both;"> 
 {% include image.html url="/assets/posts/post003.jpg" caption="VHF/UHF Antenne" width=300 align="left" %}
+<br style="clear: both;"> 
