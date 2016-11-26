@@ -7,7 +7,7 @@ categories: [logbuch, post]
 project: 'Clubstation'
 ---
 
-Jan (DB8NGN) hat im Labor ein Holzregal an der Wand montiert. In diesem werden
+Jan (DG3FDM) hat im Labor ein Holzregal an der Wand montiert. In diesem werden
 alle Gerätschaften untergebracht.
 
 Desweiteren wurde durch andz (DC1MIL) und Chris (DL1COM) im Hausmeisterraum ein Abwasserrohr installiert. In diesem sollen die HF- und Netzwerkleitungen vom Aufzugsraum zum Antennenmast verlegt werden.

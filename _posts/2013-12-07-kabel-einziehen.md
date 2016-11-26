@@ -7,7 +7,7 @@ categories: [logbuch, post]
 project: 'Clubstation'
 ---
 
-Heute wurden von Jan (DG8NGN), Chris (DL1COM) und andz (DC1MIL) die HF-, Netzwerk- und Stromleitungen vom 5. OG in die Clubräume verlegt.
+Heute wurden von Jan (DG3FDM), Chris (DL1COM) und andz (DC1MIL) die HF-, Netzwerk- und Stromleitungen vom 5. OG in die Clubräume verlegt.
 
 Dazu wurden diese im Hausmeisterraum gebündelt und anschließend ca. 10m unter dem Dach in Richung Kamindurchbruch verlegt. Von dort aus ging es dann richtung Labor und Lounge
 
