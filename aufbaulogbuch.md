@@ -2,7 +2,7 @@
 layout: page
 title: Aufbaulogbuch
 description: Hier finden sich alle News zum Aufbau unserer Clubstation
-permalink: /projects/aufbaulogbuch/
+permalink: /aufbaulogbuch/
 categories: [logbuch]
 ---
 

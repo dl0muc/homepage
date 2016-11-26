@@ -1,8 +1,8 @@
 ---
 layout: page
-title: News
-description: Hier finden sich alle Neuigkeiten zu unserer Clubstation
-permalink: /news/
+title: Blog
+description: Hier finden sich alle Neuigkeiten zu DL0MUC, DB0MUC und unseren Projekten
+permalink: /bloglisting/
 ---
 
 <ul class="listing">

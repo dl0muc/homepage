@@ -1,8 +1,11 @@
-- title: "Clubstation"
+- title: "Blog"
+  href: "/bloglisting/"
+
+- title: "DL0MUC"
   href: "/clubstation/"
 
-- title: "News"
-  href: "/news/"
+- title: "DB0MUC"
+  href: "/db0muc/"
 
 - title: "Projekte"
   href: "/projects/"
@@ -13,10 +16,10 @@
       subhref: "/projects/avm/"
     
 - title: "Aufbaulogbuch"
-  href: "/projects/aufbaulogbuch/"
-
-- title: "About"
-  href: "/about/"
+  href: "/aufbaulogbuch/"
 
 - title: "members"
   href: "/members.html"
+
+- title: "About"
+  href: "/about/"

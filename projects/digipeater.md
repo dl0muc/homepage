@@ -2,7 +2,7 @@
 layout: page
 title: Digipeater
 permalink: /projects/digipeater/
-categories: [project]
+categories: [project, db0muc]
 project: 'Digipeater'
 ---
 

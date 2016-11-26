@@ -7,9 +7,9 @@ permalink: /
 Homepage von DL0MUC - Der Clubstation des Chaos Computer Clubs München 
 sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
 
-## Neuigkeiten
+### Letzte Blogeinträge
 
-Ältere Neuigkeite finden sich unter <a href="/news" title="News">News</a>
+Ältere Einträge finden sich unter <a href="/bloglisting" title="Blog">Blog</a>
 
 <div class="post">
 {% for post in site.posts %}
