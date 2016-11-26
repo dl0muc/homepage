@@ -16,7 +16,7 @@ layout: default
     {% for post in site.posts %}
     {% if post.project == page.project %}
     <div class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl }}.html">
             <h3 class="post-title"> {{ post.title }} </h3>
             {% if post.subtitle %}
             <h4 class="post-subtitle"> {{ post.subtitle }} </h4>

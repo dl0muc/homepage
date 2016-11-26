@@ -15,7 +15,7 @@ sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
 {% for post in site.posts %}
 {% if forloop.index <= 6 %}
     <div class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+        <a href="{{ post.url | prepend: site.baseurl }}.html">
             <h3 class="post-title"> {{ post.title }} </h3>
             {% if post.subtitle %}
             <h4 class="post-subtitle"> {{ post.subtitle }} </h4>
