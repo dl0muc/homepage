@@ -4,8 +4,12 @@ title: Willkommen
 permalink: /
 ---
 
-Homepage von DL0MUC - Der Clubstation des Chaos Computer Clubs München 
-sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
+Homepage von DL0MUC - Der Clubstation sowie von DB0MUC - Der automatischen Station des Chaos Computer Club München
+
+{% include image.html url="/assets/pages/qsl_01.jpg" width=600 align="left" %}
+<br style="clear: both;"> 
+
+**Aktivitätsabend:** Aktuell findet leider kein regelmäßiger Termin statt.
 
 ### Letzte Blogeinträge
 

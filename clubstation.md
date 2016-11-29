@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Clubstation
-permalink: /clubstation/
+title: Shack
+permalink: /dl0muc/shack
+description: Clubstation
+categories: dl0muc
 ---
 
 ## Transceiver
@@ -27,7 +29,7 @@ permalink: /clubstation/
 | **Length** | 2.2 m                              | 
 | **Weight** | 1.5 kg                             |
 
-### HF-6V - 5-Band vertical antenna 
+### HF-6V - 5-Band Vertical Antenna 
 
 [WiMo Link](http://wimo.de/antenna-butternut_e.html#hf6v)
 

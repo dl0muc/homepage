@@ -9,7 +9,7 @@ project: 'Clubstation'
 
 Viele Fleißige Hände haben die KW Vertikalantenne vom Typ *HF-6V - 5-Band vertical antenna* ([WiMo Link](http://wimo.de/antenna-butternut_e.html#hf6v)) installiert.
 
-Dazu wurde zunächst mit Gewindestangen ein Antennenhalter am Aufzugshäuschen montiert.
+Dazu wurde zunächst mit Gewindestangen ein Antennenhalter am Aufzughäuschen montiert.
 
 {% include image.html url="/assets/posts/post021.jpg" caption="Montage des Antennenhalters" width=300 align="left" %}
 {% include image.html url="/assets/posts/post022.jpg" caption="Blick über München" width=300 align="left" %}
@@ -32,4 +32,4 @@ Mit unserem mobilen Netzwerkanalysator wurde die Antenne nun mit viel Fingerspit
 {% include image.html url="/assets/posts/post027.jpg" caption="Abstimmen der Antenne" width=300 align="left" %}
 <br style="clear: both;"> 
 
-Dank der freundlichen Leihgabe eines KW-Transceivers von C18 konnten wir noch am selben aben QRV gehen uns bereits mehrere QSO mit USA und Kanada führen! In den nächsten Tagen trifft unser neuer Transceiver (ICOM IC-9100) bei uns ein.
+Dank der freundlichen Leihgabe eines KW-Transceivers von C18 konnten wir noch am selben Abend QRV gehen uns bereits mehrere QSO mit USA und Kanada führen! In den nächsten Tagen trifft unser neuer Transceiver (ICOM IC-9100) bei uns ein.

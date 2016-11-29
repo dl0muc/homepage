@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projekte
-description: Hier findet sich eine Liste von Projekten welche im Rahmen der DL0MUC Clubstation enstanden sind
+description: Hier findet sich eine Liste von Projekten welche im Rahmen der DL0MUC Clubstation entstanden sind
 permalink: /projects/
 categories: none
 ---

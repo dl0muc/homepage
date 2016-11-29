@@ -9,9 +9,9 @@ project: 'Clubstation'
 
 Heute wurden von Jan (DG3FDM), Chris (DL1COM) und andz (DC1MIL) die HF-, Netzwerk- und Stromleitungen vom 5. OG in die Clubräume verlegt.
 
-Dazu wurden diese im Hausmeisterraum gebündelt und anschließend ca. 10m unter dem Dach in Richung Kamindurchbruch verlegt. Von dort aus ging es dann richtung Labor und Lounge
+Dazu wurden diese im Hausmeisterraum gebündelt und anschließend ca. 10m unter dem Dach in Richtung Kamindurchbruch verlegt. Von dort aus ging es dann Richtung Labor und Lounge
 
-Die HF Kabel wurden gleic mit N-Steckern versehen und die Netwerkabel im NOC aufgepatched. Auch die 3-Phasen der Stromleitungen wurden gleich im Sicherungskasten angeschlossen
+Die HF Kabel wurden gleich mit N-Steckern versehen und die Netzwerkkabel im NOC aufgepatched. Auch die 3-Phasen der Stromleitungen wurden gleich im Sicherungskasten angeschlossen
 
 {% include image.html url="/assets/posts/post007.jpg" caption="Unter dem Dach" width=300 align="left" %}
 

@@ -7,4 +7,4 @@ categories: [logbuch, post]
 project: 'Clubstation'
 ---
 
-Heute wurden im Aufzugsraum noch die letzten Kabelkanäle verlegt und sämtliche Erdungskabel für den Aufzugsraum sowie den Antennenmast gefertigt.
+Heute wurden im Aufzugraum noch die letzten Kabelkanäle verlegt und sämtliche Erdungskabel für den Aufzugraum sowie den Antennenmast gefertigt.

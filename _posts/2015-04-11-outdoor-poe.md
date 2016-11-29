@@ -7,7 +7,7 @@ categories: [logbuch, post]
 project: [Clubstation, Empfaengr, HAMNET]
 ---
 
-Da auf dem Dach immer mehr Netzwerkfähige Geräte installiert werden, wurde die Verkabelung zwischen Mast und Aufzugsraum immer aufwendiger. Deshalb haben andz (DC1MIL) und Chris (DL1COM) einen VLAN fähigen PoE-Switch in einem Wetterfesten Schaltschrank untergebracht.
+Da auf dem Dach immer mehr Netzwerkfähige Geräte installiert werden, wurde die Verkabelung zwischen Mast und Aufzugraum immer aufwendiger. Deshalb haben andz (DC1MIL) und Chris (DL1COM) einen VLAN fähigen PoE-Switch in einem Wetterfesten Schaltschrank untergebracht.
 
 {% include image.html url="/assets/posts/post031.jpg" caption="Outdoor PoE-Switch" width=300 align="left" %}
 <br style="clear: both;"> 
@@ -19,13 +19,13 @@ Im selben Zug wurde ein Freifunk-Node installiert, welcher unseren benachbarten 
 {% include image.html url="/assets/posts/post032.jpg" caption="Massmann Freifunk-Node" width=300 align="left" %}
 <br style="clear: both;"> 
 
-Leider mussten wir unseren Empfaengr vorrübergehen abbbauen. Es gab zum einen Co-Site Probleme mit der VHF/UHF Antenne, welcher den Eingansfilter des RTL-SDR zerstörten. Zum andderen war das Wetterfeste gehäuse anscheinend nicht gut abgedichtet, weshalb dieses voll mit Wasser lief. Der Beaglebone konnte durch ein Ultraschallbad mit destiliertem Wasser wieder zum leben erweckt werden.
+Leider mussten wir unseren Empfaengr vorübergehend abbauen. Es gab zum einen Co-Site Probleme mit der VHF/UHF Antenne, welcher den Eingangsfilter des RTL-SDR zerstörten. Zum anderen war das Wetterfeste Gehäuse anscheinend nicht gut abgedichtet, weshalb dieses voll mit Wasser lief. Der Beaglebone konnte durch ein Ultraschallbad mit destilliertem Wasser wieder zum leben erweckt werden.
 
 Durch einen starken Sturm in München gab es einige Schäden. Diese wurden begutachtet:
 * Oberer Halter der KW-Antenne leicht verbogen -> Weiter beobachten
 * Eine Abstimmspule hat sich gelöst -> Fix offen
-* Antenne wurde vorrübergehen vom Shack abgeklemmt
+* Antenne wurde vorübergehend vom Shack abgeklemmt
 * Mastabdeckung (Gasflaschendeckel) hat sich gelöst -> Ersatz wurde montiert
 * Ansonsten keine weiteren Schäden
 
-Auch der HAMNET-Node wurde durch eine Ubiqiti Nanostation ersetzt. Der vorherige Node war mit siner 23dBi Antenne zu überdimensioniert, weshalb es bereits beschwerden der Sysops von DB0TVM gab, da die Eintreffende Feldstärke viel zu hoch war.
+Auch der HAMNET-Node wurde durch eine Ubiqiti Nanostation ersetzt. Der vorherige Node war mit seiner 23dBi Antenne zu überdimensioniert, weshalb es bereits Beschwerden der Sysops von DB0TVM gab, da die Eintreffende Feldstärke viel zu hoch war.

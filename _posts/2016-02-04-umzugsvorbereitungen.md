@@ -7,7 +7,7 @@ categories: [logbuch, post]
 project: [Clubstation]
 ---
 
-Vor kurzem haben wir unsere Clubräume im Keller erweitert. Ein abschließbarer Raum, das "Studio", kam hinzu. Dieser beherbergt neben Audio-Equipmnet auch unser HF-Labor mit einigen Messgeräten (siehe HF-Labor). Nun soll auch unser Shack in den Keller umziehen. Dazu wurde der Raum neu strukturiert und aufgeräumt.
+Vor kurzem haben wir unsere Clubräume im Keller erweitert. Ein abschließbarer Raum, das "Studio", kam hinzu. Dieser beherbergt neben Audio-Equipment auch unser HF-Labor mit einigen Messgeräten (siehe HF-Labor). Nun soll auch unser Shack in den Keller umziehen. Dazu wurde der Raum neu strukturiert und aufgeräumt.
 
 {% include image.html url="/assets/posts/post033.jpg" caption="Umstrukturiertes HF-Labor" width=300 align="left" %}
 <br style="clear: both;"> 

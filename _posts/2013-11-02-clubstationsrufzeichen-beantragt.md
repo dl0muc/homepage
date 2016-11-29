@@ -10,7 +10,7 @@ project: 'Clubstation'
 Jan (DG3FDM) hat ein Clubstationsrufzeichen bei der BNetzA beantragt.
 Mögliche Rufzeichen DK0CCC, DN0CCC oder DL0MUC.
 
-Desweiteren haben Chris (DL1COM) und andz (DC1MIL) auf dem Dach am alten TV Antennenmast folgende arbeiten erledigt:
+Des weiteren haben Chris (DL1COM) und andz (DC1MIL) auf dem Dach am alten TV Antennenmast folgende arbeiten erledigt:
 
 * Abbau der alten terrestrischen Antennen und Schüsseln
 * Abbau der alten Signalverteilung

@@ -7,7 +7,7 @@ categories: [logbuch, post]
 project: 'Clubstation'
 ---
 
-Jan (DG3FDM) und andz (DC1MIL) haben im Aufzugsraum die Kabelhalterungen für die HF-Leitungen installiert.
+Jan (DG3FDM) und andz (DC1MIL) haben im Aufzugraum die Kabelhalterungen für die HF-Leitungen installiert.
 
 Diese wurden aus "Flipdotprofilen" gefertigt und verfügen über je 3 N-Doppelkupplungen sowie mehrere Erdungsschrauben.
 
@@ -15,4 +15,4 @@ Diese wurden aus "Flipdotprofilen" gefertigt und verfügen über je 3 N-Doppelku
 {% include image.html url="/assets/posts/post012.jpg" caption="Labor" width=300 align="left" %}
 <br style="clear: both;"> 
 
-Dabei wurde auch gleich ein Patchpanel im Aufzugsraum montiert.
+Dabei wurde auch gleich ein Patchpanel im Aufzugraum montiert.
