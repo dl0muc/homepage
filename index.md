@@ -9,6 +9,8 @@ Homepage von DL0MUC - Der Clubstation sowie von DB0MUC - Der automatischen Stati
 {% include image.html url="/assets/pages/qsl_01.jpg" width=600 align="left" %}
 <br style="clear: both;"> 
 
+Neben den Grundsätzen der offenen und freien Kommunikation, setzen wir uns stark für OpenSource Soft- und Hardware ein. Denn dies ist die Basis um den Selbstbau von Funktechnik und die Entwicklung neuer Betriebsarten im Amateurfunk zu ermöglichen und zu erhalten.
+
 **Aktivitätsabend:** Aktuell findet leider kein regelmäßiger Termin statt.
 
 ### Letzte Blogeinträge

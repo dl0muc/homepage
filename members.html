@@ -4,8 +4,9 @@ title: "Members"
 description: "Funkamateure im Chaos Computer Club München"
 header-img: "img/home-bg.jpg"
 ---
+Sortiert nach Rufzeichen
 <hr>
-
+<br>
 {% for member in site.data.members %} {% if member.visible == true %}
 
 	<img src="{{ member.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:120px !important">
@@ -29,8 +30,8 @@ header-img: "img/home-bg.jpg"
 	{% if member.bio %} 
 	{{ member.bio }}
 	{% endif %}
-	
+	<br>
 	<hr>
-
+    <br style="clear: both;"> 
 {% endif %}{% endfor %}
 

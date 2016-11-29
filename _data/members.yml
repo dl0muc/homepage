@@ -1,14 +1,65 @@
 # Members
 
+- name: DB2FK - kiu
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
 - name: DC1MIL - andz
   role: Sysop APRS and HAMNET
   img: /assets/member/default_member.jpeg
   github: andz82
-  bio: Nothing to say here
+  bio: Lizenzverantwortlicher DB0MUC
+  visible: true
+
+- name: DG1YFE - Felix
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DG3FDM - Jan
+  role: Stationsgründer
+  bio: Lizenzverantwortlicher DL0MUC
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DG6FQ - com2u
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DG9MGC - Fritz
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DH8MHY - Ole
+  role: Member
+  img: /assets/member/default_member.jpeg
   visible: true
    
 - name: DL1COM - Chris
   role: Sysop Empfaengr
   img: /assets/member/default_member.jpeg
   github: chris007de
+  visible: true
+
+- name: DL1WXD - datenwolf
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DL6MFW - entropix
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DL8RDS - Markus
+  role: Member
+  img: /assets/member/default_member.jpeg
+  visible: true
+
+- name: DO3WLT - welterde
+  role: Member
+  img: /assets/member/default_member.jpeg
   visible: true
