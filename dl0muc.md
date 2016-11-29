@@ -8,7 +8,7 @@ categories: none
 
 Unsere Clubstation DL0MUC befindet sich in den Räumen des Chaos Computer Club München. 
 
-{% include image.html url="/assets/pages/shack_01.jpg" caption="Shack im Studio" width=600 align="left" %}
+{% include image.html url="/assets/pages/shack_01.jpg" caption="Shack im Studio" width=600 align="center" %}
 <br style="clear: both;"> 
 
 Die Station ist aktuell ausgestattet mit einem ICOM IC-9100 KW/VHF/UHF Transceiver (100W), einer 600W PA sowie einem Shack-Rechner mit der geläufigsten OpenSource HAM-Software.
