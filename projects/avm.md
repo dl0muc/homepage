@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AVM Funktisch
-permalink: /projects/avm/
+permalink: /projects/avm
 categories: [project]
 project: 'AVM'
 ---
