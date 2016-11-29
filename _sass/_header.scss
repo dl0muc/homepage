@@ -18,10 +18,10 @@
     float: left;
     font-weight: 500;
     font-family: 'Titillium Web', sans-serif;
-    color: $clemson-purple:;
+    color: $clemson-purple;
     &,
     &:visited {
-        color: $clemson-purple:;
+        color: $clemson-purple;
     }
     &,
     &:hover {
@@ -66,7 +66,7 @@
 
 .site-nav a {
     display: block;
-    color: $clemson-purple:;
+    color: $clemson-purple;
 }
 
 /* Sub Menu */
