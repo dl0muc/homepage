@@ -10,7 +10,7 @@ categories: none
 {% for page in site.pages %}
   {% if page.categories contains 'project' %}
   <li class="listing-item">
-    <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    <a href="{{ page.url }}.html" title="{{ page.title }}">{{ page.title }}</a>
   </li>
   {% endif %}
 {% endfor %}

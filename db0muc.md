@@ -20,7 +20,7 @@ Seit dem 01.11.2016 haben wir das Rufzeichen *DB0MUC* für den Betrieb einer aut
 {% for page in site.pages %}
   {% if page.categories contains 'db0muc' %}
   <li class="listing-item">
-    <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    <a href="{{ page.url }}.html" title="{{ page.title }}">{{ page.title }}</a>
   </li>
   {% endif %}
 {% endfor %}
