@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digitales Sprachrelais
-permalink: /projects/digivoice
+permalink: /db0muc/digivoice
 categories: [project, db0muc]
 project: 'digivoice'
 ---

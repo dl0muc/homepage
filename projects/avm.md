@@ -25,6 +25,6 @@ Diese sollen nun Reverse-Engineered werden und für unsere Clubstation verwendet
 
 ## Aktueller Status
 
-* Original Servicehandbuch wurde studiert und mit dem Entwurf der ersten Harware begonnen
+* Original Servicehandbuch wurde studiert und mit dem Entwurf der ersten Hardware begonnen
 
 Siehe auch auf [Github](https://github.com/dl0muc/avs_operation_center).

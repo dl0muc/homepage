@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digipeater
-permalink: /projects/digipeater
+permalink: /db0muc/digipeater
 categories: [project, db0muc]
 project: 'Digipeater'
 ---

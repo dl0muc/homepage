@@ -14,7 +14,7 @@ layout: default
     <h2>News</h2>
 
     {% for post in site.posts %}
-    {% if post.project == page.project %}
+    {% if post.project contains page.project %}
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}.html">
             <h3 class="post-title"> {{ post.title }} </h3>

@@ -6,7 +6,7 @@ categories: [project, db0muc]
 project: 'APRS'
 ---
 
-Unser APRS Digipeater läuft seit dem 13. November 2016 im Testbetrieb. Siehen auch [DB0MUC auf aprs.fi](http://aprs.fi/DB0MUC).
+Unser APRS Digipeater läuft seit dem 16. November 2016 im Testbetrieb. Siehen auch [DB0MUC auf aprs.fi](http://aprs.fi/DB0MUC).
 
 {% include image.html url="/assets/pages/aprs_01.jpg" caption="APRS Digipeater" width=600 align="center" %}
 {% include image.html url="/assets/pages/aprs_02.jpg" caption="Geöffnetes Gehäuse beim Aufbau" width=600 align="center" %}

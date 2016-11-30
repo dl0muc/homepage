@@ -12,7 +12,7 @@ Wir haben von Jann (DG8NGN) einen /27 IP-Range zugeteilt bekommen (44.225.22.128
 
 Technisch sind wir über eine Strecke im ISM-Band and DB0TVM angeschlossen. Realisiert mit einem [MikroTik QRT5](https://routerboard.com/rb911g-5hpnd-qrt).
 
-## IP Addressen
+## IP Adressen
 
 | IP            | DNS                        | Beschreibung                                          | aktiv |
 | ------------- | -------------------------- | ----------------------------------------------------- | ----- |
