@@ -10,10 +10,20 @@
 - title: "Projekte"
   href: "/projects/"
   subcategories:
-    - subtitle: "Digipeater"
-      subhref: "/projects/digipeater/"
+    - subtitle: "APRS Digipeater"
+      subhref: "/projects/aprs/"
+
     - subtitle: "AVM Funktisch"
       subhref: "/projects/avm/"
+      
+    - subtitle: "Digipeater"
+      subhref: "/projects/digipeater/"
+
+    - subtitle: "Digitales Sprachrelais"
+      subhref: "/projects/digivoice/"
+
+    - subtitle: "HAMNET"
+      subhref: "/projects/hamnet/"
     
 - title: "Aufbaulogbuch"
   href: "/aufbaulogbuch/"
