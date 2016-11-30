@@ -14,20 +14,20 @@ Technisch sind wir über eine Strecke im ISM-Band and DB0TVM angeschlossen. Real
 
 ## IP Adressen
 
-| IP            | DNS                        | Beschreibung                                          | aktiv |
-| ------------- | -------------------------- | ----------------------------------------------------- | ----- |
-| 44.224.10.166 | bb-db0tvm.db0muc.ampr.org  | Routing ISM                                           | ja    |
-| 44.225.22.129 | router.db0muc.ampr.org     | HAMNET Router                                         | ja    |
-| 44.225.22.130 | db0muc.ampr.org            | VM für Services                                       | ja    |
-| 44.225.22.131 | digi.db0muc.ampr.org       | [Digipeater](/projects/digipeater)                    | nein  |
-| 44.225.22.132 | empfaengr.db0muc.ampr.org  | Web-SDR                                               | nein  |
-| 44.225.22.133 | aprs.db0muc.ampr.org       | [APRS-Digi](/projects/aprs)                           | ja    |
-| 44.225.22.137 | p0wer.dl0muc.ampr.org      | Netzwerksteckdose Shack                               | nein  |
-| 44.225.22.138 | shack.dl0muc.ampr.org      | Schackrechner                                         | -
-| 44.225.22.139 | contr0l.dl0muc.ampr.org    | Shacksteuerung (Siehe [AVM Funktisch](/projects/avm)) | nein  |
-| 44.225.22.140 | rot0r.dl0muc.ampr.org      | Rotorsteuerung                                        | nein  |
-| 44.225.22.143 | d-amprnet.db0muc.ampr.org  | Routing und DNS Services                              | ja    |
-| 44.225.22.144 - \\ 44.255.22.158 |         | User DHCP-Range                                       | -     |
+| IP            | DNS                        | Beschreibung                                               | aktiv |
+| ------------- | -------------------------- | ---------------------------------------------------------- | ----- |
+| 44.224.10.166 | bb-db0tvm.db0muc.ampr.org  | Routing ISM                                                | ja    |
+| 44.225.22.129 | router.db0muc.ampr.org     | HAMNET Router                                              | ja    |
+| 44.225.22.130 | db0muc.ampr.org            | VM für Services                                            | ja    |
+| 44.225.22.131 | digi.db0muc.ampr.org       | [Digipeater](/projects/digipeater.html)                    | nein  |
+| 44.225.22.132 | empfaengr.db0muc.ampr.org  | Web-SDR                                                    | nein  |
+| 44.225.22.133 | aprs.db0muc.ampr.org       | [APRS-Digi](/projects/aprs.html)                           | ja    |
+| 44.225.22.137 | p0wer.dl0muc.ampr.org      | Netzwerksteckdose Shack                                    | nein  |
+| 44.225.22.138 | shack.dl0muc.ampr.org      | Schackrechner                                              | -
+| 44.225.22.139 | contr0l.dl0muc.ampr.org    | Shacksteuerung (Siehe [AVM Funktisch](/projects/avm.html)) | nein  |
+| 44.225.22.140 | rot0r.dl0muc.ampr.org      | Rotorsteuerung                                             | nein  |
+| 44.225.22.143 | d-amprnet.db0muc.ampr.org  | Routing und DNS Services                                   | ja    |
+| 44.225.22.144 - \\ 44.255.22.158 |         | User DHCP-Range                                            | -     |
 
 
 ## Netzaufbau

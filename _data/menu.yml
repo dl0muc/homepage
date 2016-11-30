@@ -11,19 +11,19 @@
   href: "/projects/"
   subcategories:
     - subtitle: "APRS Digipeater"
-      subhref: "/db0muc/aprs/"
+      subhref: "/db0muc/aprs.html"
 
     - subtitle: "AVM Funktisch"
-      subhref: "/projects/avm/"
+      subhref: "/projects/avm.html"
 
     - subtitle: "Digipeater"
-      subhref: "/db0muc/digipeater/"
+      subhref: "/db0muc/digipeater.html"
 
     - subtitle: "Digitales Sprachrelais"
-      subhref: "/db0muc/digivoice/"
+      subhref: "/db0muc/digivoice.html"
 
     - subtitle: "HAMNET"
-      subhref: "/db0muc/hamnet/"
+      subhref: "/db0muc/hamnet.html"
     
 - title: "Aufbaulogbuch"
   href: "/aufbaulogbuch/"
