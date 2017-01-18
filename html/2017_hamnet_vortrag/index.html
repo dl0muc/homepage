@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HAMNET - der funkende 44.0.0.0/8 Schinken</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="andz">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>HAMNET - der funkende 44.0.0.0/8 Schinken</h1>
+				</section>
+
+				<section>
+					<h2>Hello There</h2>
+					<p>
+						andz - DC1MIL<br>
+					</p>
+				</section>
+                
+                <section>
+                    <section>
+                        <h3 class="fragment grow">Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>
+                    </section>
+                    <section>
+                        <h2>Um was geht es?</h2>
+                        <ul>
+                            <li>Aufbau eines IP-basierten Datennetzes</li>
+                            <li>"Breitband" Datenübertragung über die Luftschnittstelle</li>
+                            <li>Unabhängikeit von kommerzieller Infrastruktur</li>
+                            <li>Spaß am Gerät</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>    <!--  -->
+                     <section>
+                        <h4>Basics</h4>
+                        <h3 class="fragment grow">Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>   				
+                    </section>
+                    <section>
+    					<h2>Geschichte des Datenfunks</h2>
+    					<p>
+    						Wie aus Bits Funkpakete wurden
+    					</p>
+    				</section>
+                    <section>
+                        <h2>ALOHAnet</h2>
+                        <p>
+                            University of Hawaii - 1971
+                        </p>
+                        <ul>
+                            <li>Erste bidirektionale Datenfunkverbindung mit mehreren Teilnehmern</li>
+                            <li>1 Zentralrechner, 7 Standorte auf 4 Inseln</li>
+                            <li>Verwendung von Paketvermittlung analog ARPANET</li>
+                            <li>9k6 und 70cm Band</li>
+                            <li>Single Broadcast, Multi Access</li>
+                            <li>Simple Kollisionsvermeidung via zufälliger Sendezeit und Ack-Signal</li>
+                            <li>Satelitenverbindung zum ARPANET 1972</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>PRnet</h2>
+                        <p>
+                            San Francisco Bay - 1973
+                        </p>
+                        <ul>
+                            <li>Verwendung von CSMA zur Kollisionsvermeidung</li>
+                            <li>Spred Spectrum Modulation mit 400 kbit/s</li>
+                            <li>ARPANET/IP Verbindungen zu mobilen Stationen</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>AMPRnet</h2>
+                        <p>
+                            Kannada - ab 1978
+                        </p>
+                        <ul>
+                            <li>Erste Lizenz für Datenkommunikation im Amateurfunk</li>
+                            <li>Übertragung von ASCII zeichen mittels 1k2 AFSK</li>
+                            <li>Entwicklung von eigenbau TNCs 1980</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>AMPRnet 2</h2>
+                        <p>
+                            USA - ab 1980
+                        </p>
+                        <ul>
+                            <li>Lizenzerteilung für Datenfunk in den USA</li>
+                            <li>Erster Packet Radio Digipeater</li>
+                            <li>Adaption des X.25 (Datex-P) Protokolls zu AX.25 (Layer 2)</li>
+                            <li>Verwendung von IP auf Layer 3 (eher selten)</li>
+                            <li>Sicherung des 44.0.0.0/8 Class A Netzes durch Hank Maguski 1979</li>
+                            <li>TNC Kit 1983</li>
+                            <li>BBS ab 1984</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Packet Radio in Deutschland</h2>
+                        <p>
+                            ab 1985
+                        </p>
+                        <ul>
+                            <li>Aufbau von Linkstrecken</li>
+                            <li>Deutschlandweites Netz in den 90ern bis frühen 2000er</li>
+                            <li>Entwicklung des TNC3</li>
+                            <li>Datenübertragung auf Linkstrecken bis 1M2, Userzugang 76k8</li>
+                            <li>BBS, Email, DX-Cluster...</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <img width="70%" data-src="pics/PacketRadioDE.png">
+                        <br><font size="4" color="AAAAAA">src: OV H20</font>
+                    </section>
+
+                    <section>
+                        <h2>Untergang von Packet Radio ab 2000</h2>
+                        <ul>
+                            <li>Starkes Jugenproblem im Amateurfunk</li>
+                            <li>Interessenverlust</li>
+                            <li>Ausbleiben von neuen Innovationen</li>
+                            <li>APRS letzte verbleibende Anwendung</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h3 class="fragment grow">Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>
+                    </section>
+
+                    <section>
+                        <h2>Was ist HAMNET</h2>
+                        <p>
+                            Highspeed Amateurradio Multimedia NETwork
+                        </p>
+                        <ul>
+                            <li>Verwendung der 802.11 Protokollfamilie</li>
+                            <li>Entwicklung durch ÖVSV ab 2005 in Salzburg</li>
+                            <li>Aufbau des Netzes ab 2008 in A, 2009 in D</li>
+                            <li>Verwendung von IP auf Layer 3</li>
+                            <li>Ersatz von alten Packet Radio Linkstrecken im 6cm Band</li>
+                            <li>Userzugänge Hauptsächlich im 13cm Band</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h2>Rechtliches</h2>
+                        <ul>
+                            <li>Verschlüsselung im Amateufunk "verboten"</li>
+                            <li>Kein Zugriff von Nicht-AFU Diensten im HAMNET</li>
+                            <li>Regelmäßige Übertragung des Rufzeichens</li>
+                            <li>"automatische Stationen" benötigen spezielle Lizenz</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Koordination</h2>
+                        <ul>
+                            <li>Regionales Netzerkmanagement</li>
+                            <li>Zuteilung von Subnetzen auf Regionen (z.B. 44.130.0.0/16)</li>
+                            <li>Privater AS-Raum (AS64512 - AS65535)</li>
+                            <li>Regionale Koordinatoren (Süddeutschland Jann, DG8NGN)</li>
+                            <li>Betrieb von DNS (*.RUFZEICHEN.ampr.org)</li>
+                            <li>Frequenzzuteiung über BNetzA</li>
+                            <li>uvm...</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>HAMRADIO Netz</h2>
+                        <ul>
+                            <li>Sites</li>
+                            <li>Links</li>
+                            <li>Services</li>
+                            <li>Userzugänge</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img width="70%" data-src="pics/HAMNETMap.png">
+                        <br><font size="4" color="AAAAAA">src: hamnetdb.net</font>
+                    </section>
+                    <section>
+                        <img width="70%" data-src="pics/HAMNETMapDetail.png">
+                        <br><font size="4" color="AAAAAA">src: hamnetdb.net</font>>
+                    </section>
+
+                </section>
+
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h3 class="fragment grow">Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>
+                    </section>
+
+                    <section>
+                        <h2>Frequenzen</h2>
+                        <img width="70%" data-src="pics/frequenzbereich.png">
+                        <br><font size="4" color="AAAAAA">Vergleich ISM und AFU</font>
+                    </section>
+
+                    <section>
+                        <h2>Frequenzen - Details</h2>
+                        <h3>13cm Band</h3>
+                        <li>(2362)*, 2392, 2397 MHz</li>
+                        <li>5 MHz Bandbreite</li>
+                        <li>Datenrate bis 36 Mbit/s (MCS15)</li>
+                        <li>max. Sendeleistung 15W (ISM: 100mW)</li> 
+                        *) Primärnutzer BOS
+                    </section>
+
+                    <section>
+                        <h2>Frequenzen - Details</h2>
+                        <h3>6cm Band</h3>
+                        <li>15 Kanäle zw. 5675 und 5825MHz</li>
+                        <li>10 MHz Bandbreite</li>
+                        <li>Datenrate bis 72 Mbit/s (MCS15)</li>
+                        <li>max. Sendeleistung 15W (ISM: 1000mW)</li>
+                    </section>
+
+                    <section>
+                        <h2>Linkstrecken</h2>
+                        <img width="40%" data-src="pics/antenne_24dbi.jpg">
+                        <li>Anfänglich meist OpenWRT Router</li>
+                        <li>Mittlerweile Ubiquiti/Mikrotik Standardhardware</li>
+                        <li>Antennenspiegel mit bis zu 30dBi Gewinn</li>
+                    </section>
+
+                    <section>
+                        <h2>Sites/Services</h2>
+                        <li>Vernetzung über Standard LAN Hardware</li>
+                        <li>Services auf Rechnern einer Site</li>
+                        <li>Evtl. Notfunkversorgung</li>
+                    </section>
+
+                    <section>
+                        <h2>Userzugänge</h2>
+                        <img width="25%" data-src="pics/Userzugang.jpeg">
+                        <li>Meist Ubiquiti Hardware ohne Modifikationen, aber auch andere Routerboards</li>
+                        <li>Antennen für größere Entfernungen</li>
+                        <li>Amateufunkfreundlicher Compliance Mode</li>
+                        <li>IP Zuweisung über DHCP</li>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h3 class="fragment grow">Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>
+                    </section>
+
+                    <section>
+                        <h2>Warum?</h2>
+                        <li>"Moderne" Technologien nutzen</li>
+                        <li>Breitband Anwendungen möglich</li>
+                        <li>Unabhängiges Netz, auch im Katastrophenfall</li>
+                        <li>Neue Services</li>
+                    </section>
+
+                    <section>
+                        <h2>Services (Beispiele)</h2>
+                        <li>Ersatz von Packet Radio Anwendungen (BBS, Email, APRS...)</li>
+                        <li>ATV, Webcams</li>
+                        <li>WebSDR</li>
+                        <li>Echolink</li>
+                        <li>Telefonie (Asterisk)</li>
+                        <li>Homepages, wiki,</li>
+                        <li>IRC, ftp, telnet, uvm...</li>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h3 class="fragment grow">HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h4>Fragen!</h3>
+                    </section>
+
+                    <section>
+                        <h2>Userzugang seit Januar 2014</h2>
+                        <img width="45%" data-src="pics/hamnetmuccc1.jpg">
+                        <img width="45%" data-src="pics/hamnetmuccc2.jpg">
+                    </section>
+
+                    <section>
+                        <h2>Userzugang 2015</h2>
+                        <li>"Etwas" zu viel Leistung *hust*</li>
+                        <li>Ersatz durch Ubiquiti Nanostation M2 Loco</li>
+                        <li>Installation des Outdoor PoE Gehäuses</li>
+                        <img width="30%" data-src="pics/hamnetmuccc3.jpg">
+                    </section>
+
+                    <section>
+                        <h2>Hamnet Site seit August 2016</h2>
+                        <li>Zuteilung des Subnetzes 44.225.22.128/27</li>
+                        <li>Richtfunkstrecke (ISM!) zum Olympiaturm</li>
+                        <li>Userzugang im Shack</li>
+                        <img width="30%" data-src="pics/hamnetmuccc4.jpg">
+                        <img width="57%" data-src="pics/mapmuccc.png">
+                    </section>
+
+                     <section>
+                        <h2>Aktive Services bei DB0MUC/DL0MUC</h2>
+                        <li>Homepage db0muc.ampr.org</li>
+                        <li>APRS Digipeater</li>
+                        <li>Shackanbindung</li>
+                        <img width="50%" data-src="pics/hamnetmuccc5.png">
+                    </section>
+
+                    <section>
+                        <h2>Geplante Services bei DB0MUC/DL0MUC</h2>
+                        <li>Digipeater</li>
+                        <li>WebSDR</li>
+                        <li>Asterisk Server</li>
+                        <li>Gitlab</li>
+                        <li>Digitales Sprachrelais</li>
+                        <li>Wetterstation</li>
+                        <li>uvm...</li>
+                    </section>                         
+
+                </section> 
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h3 class="fragment grow">Demo</h3>
+                        <h4>Fragen!</h3>
+                    </section>
+
+                </section>                  
+
+                <section>
+                    <section>
+                        <h4>Basics</h4>
+                        <h4>Geschichte des Datenfunks</h4>
+                        <h4>Was ist HAMNET</h4>
+                        <h4>Technische Details</h4>
+                        <h4>Warum? - Anwendungen</h4>
+                        <h4>HAMNET im muccc</h4>
+                        <h4>Demo</h4>
+                        <h3 class="fragment grow">Fragen!</h3>
+                    </section>
+
+                </section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
