@@ -21,7 +21,7 @@ Technisch sind wir über eine Strecke im ISM-Band and DB0TVM angeschlossen. Real
 | 44.225.22.130 | db0muc.ampr.org            | VM für Services                                            | ja    |
 | 44.225.22.131 | digi.db0muc.ampr.org       | [Digipeater](/db0muc/digipeater.html)                      | nein  |
 | 44.225.22.132 | empfaengr.db0muc.ampr.org  | Web-SDR                                                    | nein  |
-| 44.225.22.133 | aprs.db0muc.ampr.org       | [APRS-Digi](/db0muc/aprs.html)                             | ja    |
+| 44.225.22.133 | aprs.db0muc.ampr.org       | [APRS-Digi](/db0muc/aprs.html)                            | ja    |
 | 44.225.22.137 | p0wer.dl0muc.ampr.org      | Netzwerksteckdose Shack                                    | nein  |
 | 44.225.22.138 | shack.dl0muc.ampr.org      | Schackrechner                                              | -
 | 44.225.22.139 | contr0l.dl0muc.ampr.org    | Shacksteuerung (Siehe [AVM Funktisch](/projects/avm.html)) | nein  |
