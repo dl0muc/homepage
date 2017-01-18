@@ -34,7 +34,7 @@ Unser APRS Digipeater läuft seit dem 16. November 2016 im Testbetrieb. Siehen a
 * [APRSC](http://he.fi/aprsc/) als lokaler APRS-IS
 * [Sopel](https://github.com/sopel-irc) als IRC-Bot für zukünftige Funktionen
 
-Konfigurationsfiles finden sich auf [Github](https://github.com/dl0muc/db0muc_digipeater).
+Konfigurationsfiles finden sich auf [Github](https://github.com/dl0muc/db0muc_digipeater) und eine detailierte Konfigurationsbeschreibung [hier](/db0muc/aprs/config.html).
 
 ## Aktueller Funktionsumfang
 
