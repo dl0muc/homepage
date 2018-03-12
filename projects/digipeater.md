@@ -33,3 +33,15 @@ Unser DB0MUC Digipeater befindet sich aktuell noch in der Planungsphase
 * Anbindung an das HAMNET
 * Fernsteuern von Funkstationsfunktionen
 * uvm.
+
+## Erste Testinstallation
+
+### Test mit LinBQP (Linux Variante von BQP32)
+
+* Installation auf Rapsberry Pi 3
+* Benötigte Libs
+  * libconfigg++8
+  * libpcap0.8-dev
+* Source von [Github](https://github.com/g8bpq/LinBPQ.git)
+
+
