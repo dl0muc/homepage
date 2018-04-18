@@ -14,5 +14,5 @@ Aufgrund der Begebenheiten vor Ort wurde das Rack auf einenn selbst gebauten Soc
 Versorgt wird der zukünftige Inhalt mit einer eigenen Phase Strom und zwei CAT7 Ethernet Leitungen.
 Als erstes Gerät haben wir den APRS Repeater ins Rack gepackt und an die vorhandene Diamond Antenne angeschlossen.
 
-{% include image.html url="/assets/posts/post045.png" caption="Neues DB0MUC Rack" width=300 align="left" %}
+{% include image.html url="/assets/posts/post045.jpg" caption="Neues DB0MUC Rack" width=300 align="left" %}
 <br style="clear: both;"> 
