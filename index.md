@@ -14,7 +14,7 @@ Homepage von DL0MUC - Der Clubstation sowie von DB0MUC - Der automatischen Stati
 |   
 
 <br style="clear: both;"> 
-**Aktivitätsabend:** Aktuell findet leider kein regelmäßiger Termin statt.
+**Aktivitätsabende 2018:** Am 20. Juni, 15. August, 17. Oktober und 19. Dezember treffen wir uns um 19:00 im Chaos Computer Club München in der Schleißheimer Str. 39.
 
 ### Letzte Blogeinträge
 
