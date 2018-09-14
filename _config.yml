@@ -1,6 +1,6 @@
 # Site settings
 title: DL0MUC - Clubstation des µC³
-email: dl0muc@muc.ccc.de
+email: dl0muc@lists.muc.ccc.de
 description: > # this means to ignore newlines until "baseurl:"
   Clubstation des Chaos Computer Club München
 baseurl: "" # the subpath of your site, e.g. /blog/
