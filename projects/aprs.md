@@ -15,7 +15,7 @@ Unser APRS Digipeater läuft seit dem 16. November 2016 im Testbetrieb. Siehen a
 ## Allgemeine Informationen
 
 | Sysops           | DC1MIL, DL1COM       |
-| HAMNET-IP        | 44.225.22.133        |
+| HAMNET-IP        | 44.149.22.133        |
 | URL              | aprs.db0muc.ampr.org |
 | Frequenz         | 144.800 MHz          |
 | Ausgangsleistung | 6W                   |

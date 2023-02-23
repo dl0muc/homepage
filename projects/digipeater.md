@@ -10,7 +10,7 @@ Unser DB0MUC Digipeater befindet sich aktuell noch in der Planungsphase
 
 ## Allgemeines
 
-| HAMNET-IP  | 44.225.22.133        |
+| HAMNET-IP  | 44.149.22.131        |
 | URL        | aprs.db0muc.ampr.org |
 | Frequenz   | 438.450 MHz -7.6     |
 | Bandbreite | 25kHz                |
