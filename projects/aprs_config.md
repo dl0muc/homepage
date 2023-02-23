@@ -1,6 +1,6 @@
 ---
 layout: page
-title: APRS Digipeater
+title: APRS Digipeater Config
 permalink: /db0muc/aprs/config
 categories: [project, db0muc]
 project: 'APRS'
